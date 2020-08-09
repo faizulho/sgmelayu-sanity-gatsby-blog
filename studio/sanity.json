@@ -19,6 +19,10 @@
     "dashboard-widget-netlify",
     "@sanity/studio-hints"
   ],
+  {
+  "implements": "part:@sanity/form-builder/input/image/asset-sources",
+  "path": "./parts/assetSources.js"
+}
   "parts": [
     {
       "name": "part:@sanity/base/schema",
